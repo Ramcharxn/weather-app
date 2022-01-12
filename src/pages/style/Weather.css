@@ -1,0 +1,145 @@
+  
+html, body, #root {
+    font: 0.9rem sans-serif;
+    background: #0a1f44;
+    color: #1e2432;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+.mainn_container {
+    background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.418) ),url('./img/nature.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.cityy {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 40px 8%;
+    border-radius: 20px;
+    background: rgba(250, 250, 250, 0.85);
+    box-shadow: 10px 10px 5px 0px rgba(15, 15, 15, 0.404);
+}
+
+.pp {
+    margin-top: 10px;
+    text-transform: uppercase;
+    color: #222;
+    letter-spacing: 0.05em;
+}
+
+.cityy_temp {
+    font-size: 5rem;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #1e2432;
+    text-align: center;
+}
+
+.cityy sup {
+    font-size: 0.5em;
+}
+
+.cityy_name {
+    font-size: 2em;
+}
+
+.cityy_name sup {
+    padding: 0.2em 0.6em;
+    margin-left: 0.2em;
+    border-radius: 30px;
+    color: #fff;
+    background: #ff8c00;
+}
+
+.city_icon {
+    margin-top: 10px;
+    width: 100px;
+    height: 100px;
+}
+
+.infoo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+.boxx{
+	width: 400px;
+	height: 60px !important;
+	background-color: white;
+	border-radius: 30px;
+	display: flex;
+	align-items: center;
+	padding: 20px;
+}
+.boxx .micc {
+	font-size: 20px;
+    color: #777;
+    padding: 5px;
+    border: 2px solid #333;
+    border-radius: 20%;
+    outline: none;
+}
+.boxx .searchh{
+	flex: 1;
+	height: 40px;
+	border: none;
+	outline: none;
+	font-size: 18px;
+    padding-left: 10px;
+}
+.searchh_2{
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+    border: 2px solid white;
+    padding: 10px 20px;
+    border-radius: 15%;
+    margin-top: 1%;
+    font-size: 18px;
+    cursor: pointer;
+    margin-bottom: 2%;
+}
+.searchh_2:hover{
+    background-color: white;
+    color: #111;
+    border-radius: 1px solid white;
+}
+
+
+
+@media screen and (max-width: 600px) {
+    .boxx{
+        width: 325px;
+        height: 15px;
+        transform: translateY(-50%);
+    }
+    .boxx .micc{
+        padding: 5px;
+    }
+    .searchh_2{
+        margin-bottom: 10%;
+        margin-top: -5%;
+    }
+    .cityy {
+        padding: 40px 20%;
+    }
+}
+@media screen and (max-width: 500px) {
+    .boxx .micc{
+        transform: translateX(-10%);
+    }
+}
+

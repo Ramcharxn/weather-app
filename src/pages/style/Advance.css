@@ -1,0 +1,304 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+.AppB{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(116.24deg, #021453 0%, #324279 96.28%);
+}
+.AppB .cloud1{
+    position:fixed;
+    top: 30%;
+    left: 0;
+    transform: translate(0,-20%);
+}
+.AppB .cloud2{
+    position: fixed;
+    top: 10%;
+    right: 0;
+    transform: translate(0,-10%);
+    z-index: 2;
+}
+.AppB .sun{
+    position: fixed;
+    top: 5%;
+    left: 3%;
+    transform: translate(-10%,-5%);
+}
+.AppB .logo{
+    font-family: Noto Sans;
+    font-size: 40px;
+    font-weight: 500;
+    color: white;
+    padding:30px 80px;
+    z-index: 10;
+}
+.AppB .main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    z-index: 10;
+}
+.AppB .temp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+}
+.AppB .temp1{
+    font-size: 200px;
+    color: #e0e0e0;
+    display: flex;
+    z-index: 10;
+}
+.AppB .date{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    z-index: 10;
+}
+.AppB .part2{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    z-index: 10;
+}
+.AppB .box{
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    z-index: 10;
+}
+.AppB .box2{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 100px;
+    padding: 0 10px;
+    overflow-y: auto;
+    width: 50%;
+    z-index: 10;
+    font-size: 18;
+}
+.AppB a{
+    text-decoration: none;
+    color: white;
+    border: 2px solid white;
+    border-radius: 10%;
+    padding: 5px 10px;
+    font-size: 20px;
+}
+
+/* *********************************************************** */
+
+.AppR{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(116.24deg, #C9703F 0%, #8B7957 96.28%);
+}
+.AppR .cloud1{
+    position:fixed;
+    top: 20%;
+    left: 0;
+    transform: translate(0,-20%);
+    opacity: 0.3;
+}
+.AppR .cloud2{
+    position: fixed;
+    top: 10%;
+    right: 0;
+    transform: translate(0,-10%);
+    z-index: 2;
+}
+.AppR .sun{
+    position: fixed;
+    top: 5%;
+    right: 15%;
+    transform: translate(-10%,-5%);
+}
+.AppR .logo{
+    font-family: Noto Sans;
+    font-size: 40px;
+    font-weight: 500;
+    color: white;
+    padding:30px 80px;
+    z-index: 10;
+}
+.AppR .main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    z-index: 10;
+}
+.AppR .temp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+}
+.AppR .temp1{
+    font-size: 200px;
+    color: #e0e0e0;
+    display: flex;
+    z-index: 10;
+}
+.AppR .date{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    z-index: 10;
+}
+.AppR .part2{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    z-index: 10;
+}
+.AppR .box{
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    z-index: 10;
+}
+.AppR .box2{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 100px;
+    padding: 0 10px;
+    overflow-y: auto;
+    width: 50%;
+    z-index: 10;
+    font-size: 18;
+}
+.AppR a{
+    text-decoration: none;
+    color: white;
+    border: 2px solid white;
+    border-radius: 10%;
+    padding: 5px 10px;
+    font-size: 20px;
+}
+
+@media only screen and (max-width: 1000px) {
+    .AppR .sun{
+        position: fixed;
+        top: 5%;
+        right: 25%;
+        transform: translate(-25%,-5%);
+    } 
+} 
+
+@media only screen and (max-width: 700px) {
+    .AppB{
+        height: 100%;
+    }
+    .AppB .part2{
+        display: flex;
+        flex-direction: column;
+        color: white;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        z-index: 10;
+    }
+    .AppB .box{
+        font-size: 22px;
+    }
+    .AppB .box2{
+        padding-bottom: 20px;
+        font-size: 20px;
+        margin: 0;
+        width: 100%;
+    }
+
+
+    .AppR{
+        height: 100%;
+    }
+    .AppR .part2{
+        display: flex;
+        flex-direction: column;
+        color: white;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        z-index: 10;
+    }
+    .AppR .box{
+        font-size: 22px;
+    }
+    .AppR .box2{
+        padding-bottom: 20px;
+        font-size: 18px;
+        color: #e7e1a9;
+        margin: 0;
+        width: 100%;
+    }
+} 
+
+@media only screen and (max-width: 650px) {
+    .AppB .cloud1{
+        position:fixed;
+        top: 65%;
+        left: 0;
+        transform: translate(0,-20%);
+        opacity: 0.3;
+    }
+    .AppB .cloud2{
+        position: fixed;
+        top: 35%;
+        right: 0;
+        transform: translate(0,-10%);
+        z-index: 2;
+    }
+
+    
+    .AppR .cloud1{
+        position:fixed;
+        top: 65%;
+        left: 0;
+        transform: translate(0,-20%);
+        opacity: 0.3;
+    }
+    .AppR .cloud2{
+        position: fixed;
+        top: 35%;
+        right: 0;
+        transform: translate(0,-10%);
+        z-index: 2;
+    }
+    .AppR .sun{
+        position: fixed;
+        top: 15%;
+        right: 60%;
+        transform: translate(-10%,-5%);
+    }
+}

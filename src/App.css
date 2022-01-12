@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Acme&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+    width: 100%;
+    height: 100vh;
+    font-family: "Acme", sans-serif;
+    background-color: white;
+}
+.App_btn{
+    position: fixed;
+    bottom: 10%;
+    right: 5%;
+    background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);
+    padding: 10px;
+    border-radius: 40%;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    font-size: 20px;
+    color: white;
+    box-shadow: 0px 0px 10px 10px rgba(5, 5, 5, 0.137),
+    0 5.9px 4.2px rgba(0, 0, 0, 0.054), 0 12.6px 9.5px rgba(0, 0, 0, 0.061),
+    0 25px 20px rgba(0, 0, 0, 0.1);
+    transition: .3s;
+    z-index: 1000000;
+}
+.App_btn:hover{
+    background: white;
+    transform: translate(5%,5%);
+    color: #333;
+    border: 2px solid rgb(34, 32, 32);
+}
